@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:blueviolet
+}
+
+form{
+    margin-left: 480px;
+}
+
+::placeholder{
+    color: tomato;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: burlywood;
+}
+
+h3{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+input{
+    height: 40px;
+    width: 292px;
+    border-radius: 7px;
+    border: 2px solid ;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color: black;
+    background-color: white;
+}
+
+.select-country{
+    height: 40px;
+    width: 292px;
+    border-radius: 7px;
+    border: 2px solid ;
+    margin-left: 1rem;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.help-text{
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    color: white;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: skyblue;
+    font-size: 2rem;
+    color: red;
+}
+
+button:focus{
+    background-color: black;
+}
+
+
